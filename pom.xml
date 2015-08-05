@@ -20,6 +20,14 @@
 			<comments>A business-friendly OSS license</comments>
 		</license>
 	</licenses>
+        <distributionManagement>
+                <snapshotRepository>
+                        <id>snapshots</id>
+                        <name>Internal Snapshots</name>
+                        <url>http://nexus.persis.de/content/repositories/snapshots/</url>
+                </snapshotRepository>
+        </distributionManagement>
+
 	<scm>
 		<connection>scm:git:https://github.com/ivaynberg/wicket-select2.git</connection>
 		<developerConnection>scm:git:https://github.com/ivaynberg/wicket-select2.git</developerConnection>
